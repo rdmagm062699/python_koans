@@ -110,8 +110,8 @@ class Sensei(MockableTestResult):
 
         self.stream.writeln("\n{0}{1}You have not yet reached enlightenment ..." \
             .format(Fore.RESET, Style.NORMAL))
-        self.stream.writeln("{0}{1}{2}".format(Fore.RED, \
-            Style.BRIGHT, self.scrapeAssertionError(err)))
+        #self.stream.writeln("{0}{1}{2}".format(Fore.RED, \
+        #    Style.BRIGHT, self.scrapeAssertionError(err)))
         self.stream.writeln("")
         self.stream.writeln("{0}{1}Please meditate on the following code:" \
             .format(Fore.RESET, Style.NORMAL))

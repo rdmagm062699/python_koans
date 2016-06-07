@@ -160,7 +160,7 @@ class AboutClasses(Koan):
 
     def test_all_objects_support_str_and_repr(self):
         seq = [1, 2, 3]
-        print(repr("STRING"))
+        
         self.assertEqual("[1, 2, 3]", str(seq))
         self.assertEqual("[1, 2, 3]", repr(seq))
 
